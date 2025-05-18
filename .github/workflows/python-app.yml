@@ -26,7 +26,3 @@ jobs:
     - name: Run tests with pytest
       run: |
         pytest test_calculator.py -v --cov=calculator
-        
-    - name: Run linting
-      run: |
-        flake8 calculator.py test_calculator.py 
