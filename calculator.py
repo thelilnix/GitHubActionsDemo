@@ -1,6 +1,6 @@
 def add(x: float, y: float) -> float:
     """Add two numbers."""
-    return x + y
+    return x * y
 
 def subtract(x: float, y: float) -> float:
     """Subtract y from x."""
